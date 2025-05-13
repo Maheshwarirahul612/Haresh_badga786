@@ -1,5 +1,6 @@
 {
   "name": "vite-project",
+  "homepage": "https://maheshwarirahul612.github.io/Haresh_badga786",
   "proxy": "http://localhost:5000",
   "private": true,
   "version": "0.0.0",
