@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    background: radial-gradient(ellipse at top, #0f0f0f, #1b1b1b);
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .legend-box {
+    width: 400px;
+    padding: 2.5rem;
+    background: rgba(0, 0, 0, 0.35);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+    animation: fadeInLegend 0.8s ease-in-out;
+  }
+  
+  .legend-box h2 {
+    text-align: center;
+    color: #00f6ff;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid #00f6ff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+    outline: none;
+    transition: border 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #00ffcc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00f6ff;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #00d0e0;
+  }
+  
+  .legend-box .switch {
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    color: #ccc;
+    transition: color 0.3s;
+  }
+  
+  .legend-box .switch:hover {
+    color: #fff;
+  }
+  
+  .alert {
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .alert.error {
+    color: #ff4d4f;
+  }
+  
+  .alert.success {
+    color: #29f76e;
+  }
+  
+  @keyframes fadeInLegend {
+    from {
+      opacity: 0;
+      transform: scale(0.94);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Orbitron font from Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+  

@@ -1,0 +1,54 @@
+.homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(145deg, #0f0f0f, #1c1c1c);
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 255, 255, 0.15);
+    padding: 3rem 2rem;
+    border-radius: 14px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 30px rgba(0, 255, 255, 0.1);
+    max-width: 500px;
+  }
+  
+  .hero-card h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #00f6ff;
+  }
+  
+  .brand {
+    color: #00ffcc;
+  }
+  
+  .tagline {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 2rem;
+  }
+  
+  .start-button {
+    display: inline-block;
+    padding: 0.75rem 2rem;
+    background-color: #00f6ff;
+    color: #000;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+  }
+  
+  .start-button:hover {
+    background-color: #00d0e0;
+  }
+  
