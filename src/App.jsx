@@ -16,6 +16,8 @@ import OtherUserProfile from './pages/OtherUserProfile/OtherUserProfile';
 import AllUsers from './pages/AllUsers/AllUsers';
 import PendingRequests from './pages/AllUsers/PendingRequests';
 import GuardifyLogo from './pages/GuardifyLogo/GuardifyLogo';
+import Intro from './pages/Intro/Intro';
+import PageNotFound from './pages/PageNotFound/PageNotFound';
 
 function App() {
   const [user, setUser] = useState(null);
@@ -48,6 +50,8 @@ function App() {
           <Route path="/profile/:userId" element={<OtherUserProfile />} />
           <Route path="/GuardifyLogo" element={<GuardifyLogo />} />
           <Route path="/Chat" element={<Chat user={user} />} /> {/* Pass user to Chat */}
+          <Route path="/Intro" element={<Intro />} />
+          <Route path="/PageNotFound" element={<PageNotFound />} />
         </Routes>
       </div>
     </Router>
