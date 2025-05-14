@@ -44,7 +44,7 @@ export default function LoginRegister() {
         if (res.token) {
           localStorage.setItem('token', res.token);
           localStorage.setItem('user', JSON.stringify(res.user)); // ✅ Store user
-          window.location.href = '#/';
+          window.location.href = '#/'; // ✅ Works with HashRouter on GitHub Pages
         } else {
           setError(res.message || 'Login failed. Please check credentials.');
         }

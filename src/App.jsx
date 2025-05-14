@@ -33,7 +33,7 @@ function App() {
       <Navbar />
       <div className="min-h-screen bg-gray-100">
         <Routes>
-          <Route path="#/" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/AdminControls" element={<AdminControls />} />
           <Route path="/UserProfile" element={<UserProfile />} />
           <Route path="/Auth" element={<Auth setUser={setUser} />} />
