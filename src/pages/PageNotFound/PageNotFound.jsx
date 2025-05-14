@@ -22,12 +22,13 @@ const PageNotFound = () => {
                     We're sorry, the page you are looking for doesn't exist.
                 </p>
 
-                <Link
-                    to="/"
-                    className="mt-6 inline-block text-lg px-6 py-2 bg-black text-white rounded-md hover:bg-white hover:text-black transition-colors duration-300 shadow-lg"
+                 <Link
+                     to="/"
+                className="mt-6 inline-block text-lg text-black hover:text-gray-600 transition-colors duration-200"
                 >
                     Go back to Home
                 </Link>
+
 
                 <motion.div
                     initial={{ width: '0%' }}
