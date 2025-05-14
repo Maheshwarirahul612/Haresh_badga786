@@ -51,7 +51,7 @@ function App() {
           <Route path="/GuardifyLogo" element={<GuardifyLogo />} />
           <Route path="/Chat" element={<Chat user={user} />} /> {/* Pass user to Chat */}
           <Route path="/Intro" element={<Intro />} />
-          <Route path="/PageNotFound" element={<PageNotFound />} />
+          <Route path="*" element={<PageNotFound />} />
         </Routes>
       </div>
     </Router>

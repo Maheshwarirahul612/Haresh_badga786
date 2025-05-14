@@ -148,12 +148,11 @@ const Intro = () => {
 
   return (
     <div className="relative min-h-screen w-full bg-blue-50 text-black flex justify-center items-center overflow-hidden px-4">
-      {/* Glowing Background Circles */}
-      <div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-10 -left-10 w-[400px] h-[400px] bg-gradient-to-br from-purple-300 via-indigo-200 to-transparent rounded-full blur-3xl animate-pulse" />
-        <div className="absolute bottom-0 right-0 w-[450px] h-[450px] bg-gradient-to-tr from-pink-300 via-red-300 to-transparent rounded-full blur-3xl animate-pulse" />
-      </div>
-
+{/* Glowing Background Circles */}
+<div className="absolute inset-0 z-0 overflow-hidden pointer-events-none">
+  <div className="absolute -top-6 -left-6 w-[250px] h-[250px] bg-gradient-to-br from-purple-300 via-indigo-200 to-transparent rounded-full blur-2xl animate-pulse" />
+  <div className="absolute bottom-0 right-0 w-[280px] h-[280px] bg-gradient-to-tr from-pink-300 via-red-300 to-transparent rounded-full blur-2xl animate-pulse" />
+</div>
       {/* Animated Content */}
       <AnimatePresence mode="wait">
         <motion.div
