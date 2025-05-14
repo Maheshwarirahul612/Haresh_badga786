@@ -64,7 +64,7 @@ export default function LoginRegister() {
           setMessage(successMessage + ' Redirecting to login...');
 
           setTimeout(() => {
-            window.location.href = '/Auth';
+            window.location.href = '#/';
           }, 2000);
         }
       }
