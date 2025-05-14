@@ -12,7 +12,7 @@ const AllUsers = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/users', {
+        const response = await fetch('https://guardify-backend-6.onrender.com/api/users', {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
@@ -36,7 +36,7 @@ const AllUsers = () => {
   const handleFollowRequest = async (e, userId) => {
     e.stopPropagation();
     try {
-      const response = await fetch(`http://localhost:5000/api/follow/${userId}`, {
+      const response = await fetch(`https://guardify-backend-6.onrender.com/api/follow/${userId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

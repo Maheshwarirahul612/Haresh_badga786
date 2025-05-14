@@ -10,7 +10,7 @@ const getUserProfile = async (userId) => {
     const token = localStorage.getItem('token');
     if (!token) throw new Error('No authentication token found');
 
-    const response = await fetch(`http://localhost:5000/api/profile/${userId}`, {
+    const response = await fetch(`https://guardify-backend-6.onrender.com/api/profile/${userId}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

@@ -78,7 +78,7 @@ const UserProfile = () => {
     console.log('Form Data being sent:', formData);
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/upload-avatar', {
+      const response = await fetch('https://guardify-backend-6.onrender.com/api/auth/upload-avatar', {
         method: 'POST',
         headers: {
           Authorization: `Bearer ${token}`, // Use token from localStorage

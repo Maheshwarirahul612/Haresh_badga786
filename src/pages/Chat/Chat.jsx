@@ -5,7 +5,7 @@ import MessageBubble from '../MessageInput/MessageBubble';
 import MessageInput from '../MessageInput/MessageInput';
 import axios from 'axios';
 
-const socket = io('http://localhost:5000'); // Server address
+const socket = io('https://guardify-backend-6.onrender.com'); // Server address
 
 const Chat = ({ user }) => {
   const [onlineUsers, setOnlineUsers] = useState([]);
