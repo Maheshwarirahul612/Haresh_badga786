@@ -1,11 +1,11 @@
 import axios from 'axios';
 
 // API URLs
-const AUTH_API_URL = 'http://localhost:5000/api/auth';
-const NOTIFY_API_URL = 'http://localhost:5000/api/notifications';
-const SETTINGS_API_URL = 'http://localhost:5000/api/settings';
-const USER_API_URL = 'http://localhost:5000/api/user'; // Get user info
-const ADMIN_API_URL = 'http://localhost:5000/api/admin'; // Admin-specific API
+const AUTH_API_URL = 'https://guardify-backend-6.onrender.com/api/auth';
+const NOTIFY_API_URL = 'https://guardify-backend-6.onrender.com/api/notifications';
+const SETTINGS_API_URL = 'https://guardify-backend-6.onrender.com/api/settings';
+const USER_API_URL = 'https://guardify-backend-6.onrender.com/api/user'; // Get user info
+const ADMIN_API_URL = 'https://guardify-backend-6.onrender.com/api/admin'; // Admin-specific API
 
 // ============================ Auth Functions ============================
 
